@@ -1,7 +1,7 @@
 # crafting-table-plus
 
-english 
+english: 
 This is the source code of the Crafting Table Plus mod
 
-indonesia
+indonesia:
 Ini adalah source kode dari mod crafting table plus
