@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "get_paper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:paper"
+          }
+        ]
+      }
+    },
+    "get_writable_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:writable_book"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_paper",
+      "get_writable_book"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_nametag"
+    ]
+  }
+}

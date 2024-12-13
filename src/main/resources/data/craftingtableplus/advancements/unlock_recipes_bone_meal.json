@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "get_rotten_flesh": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:rotten_flesh"
+          }
+        ]
+      }
+    },
+    "get_water_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:water_bucket"
+          }
+        ]
+      }
+    },
+    "get_poisonous_potato": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:poisonous_potato"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_rotten_flesh",
+      "get_water_bucket",
+      "get_poisonous_potato"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_bone_meal"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "get_leather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:leather"
+          }
+        ]
+      }
+    },
+    "get_string": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:string"
+          }
+        ]
+      }
+    },
+    "get_tripwire_hook": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:tripwire_hook"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_leather",
+      "get_string",
+      "get_tripwire_hook"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_saddle"
+    ]
+  }
+}

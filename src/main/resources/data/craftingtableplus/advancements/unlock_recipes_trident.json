@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "get_iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    },
+    "get_prismarine_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_shard"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_iron_ingot",
+      "get_prismarine_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_trident"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "get_enchanted_golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:enchanted_golden_apple"
+          }
+        ]
+      }
+    },
+    "get_soul_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:soul_sand"
+          }
+        ]
+      }
+    },
+    "get_lapis_lazuli": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lapis_lazuli"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_enchanted_golden_apple",
+      "get_soul_sand",
+      "get_lapis_lazuli"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_totem_of_undying"
+    ]
+  }
+}

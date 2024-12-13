@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "get_block_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gold_block"
+          }
+        ]
+      }
+    },
+    "get_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:apple"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_block_gold",
+      "get_apple"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_enchant_golden_apple"
+    ]
+  }
+}

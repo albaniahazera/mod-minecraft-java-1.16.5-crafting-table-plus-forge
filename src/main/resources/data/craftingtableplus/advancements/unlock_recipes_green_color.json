@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "get_yellow_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_dye"
+          }
+        ]
+      }
+    },
+    "get_blue_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blue_dye"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_yellow_dye",
+      "get_blue_dye"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_green_color"
+    ]
+  }
+}
