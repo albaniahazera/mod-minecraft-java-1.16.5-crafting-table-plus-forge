@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "get_yellow_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:yellow_wool"
+          }
+        ]
+      }
+    },
+    "get_horn_coral": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:horn_coral"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_yellow_wool",
+      "get_horn_coral"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_sponge"
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "get_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blackstone"
+          }
+        ]
+      }
+    },
+    "get_gold_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:gold_nugget"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_blackstone",
+      "get_gold_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_gilded_black_stone"
+    ]
+  }
+}

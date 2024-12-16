@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "get_honeycomb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:honeycomb"
+          }
+        ]
+      }
+    },
+    "get_glass_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:glass_bottle"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_honeycomb",
+      "get_glass_bottle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_honey_bottle"
+    ]
+  }
+}

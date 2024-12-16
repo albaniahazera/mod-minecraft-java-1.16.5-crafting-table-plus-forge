@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "get_phantom_membrane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:phantom_membrane"
+          }
+        ]
+      }
+    },
+    "get_lead": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lead"
+          }
+        ]
+      }
+    },
+    "get_slime_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:slime_ball"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_phantom_membrane",
+      "get_lead",
+      "get_slime_ball"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_elytra"
+    ]
+  }
+}
