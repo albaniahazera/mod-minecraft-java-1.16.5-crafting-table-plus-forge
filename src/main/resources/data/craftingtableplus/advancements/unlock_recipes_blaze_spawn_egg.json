@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "get_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:egg"
+          }
+        ]
+      }
+    },
+    "get_blaze_root": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blaze_rod"
+          }
+        ]
+      }
+    },
+    "get_blaze_powder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:blaze_powder"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_egg",
+      "get_blaze_root",
+      "get_blaze_powder"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_blaze_spawn_egg"
+    ]
+  }
+}

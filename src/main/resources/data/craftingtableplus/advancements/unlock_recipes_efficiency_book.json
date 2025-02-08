@@ -1,0 +1,49 @@
+{
+  "criteria": {
+    "get_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      }
+    },
+    "get_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:book"
+          }
+        ]
+      }
+    },
+    "get_iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_diamond",
+      "get_book",
+      "get_iron_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_efficiency_2",
+      "craftingtableplus:crafting_efficiency_3",
+      "craftingtableplus:crafting_efficiency_4",
+      "craftingtableplus:crafting_efficiency_5"
+    ]
+  }
+}

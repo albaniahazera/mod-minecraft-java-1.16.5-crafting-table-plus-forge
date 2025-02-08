@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "get_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:book"
+          }
+        ]
+      }
+    },
+    "get_iron_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_book",
+      "get_iron_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_efficiency_1"
+    ]
+  }
+}

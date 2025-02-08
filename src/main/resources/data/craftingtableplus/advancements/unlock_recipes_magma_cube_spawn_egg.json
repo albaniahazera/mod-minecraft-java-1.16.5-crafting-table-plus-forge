@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "get_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:egg"
+          }
+        ]
+      }
+    },
+    "get_magma_cream": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magma_cream"
+          }
+        ]
+      }
+    },
+    "get_magma_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:magma_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_egg",
+      "get_magma_cream",
+      "get_magma_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_magma_cube_spawn_egg"
+    ]
+  }
+}

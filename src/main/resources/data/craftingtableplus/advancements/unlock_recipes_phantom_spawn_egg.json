@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "get_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:egg"
+          }
+        ]
+      }
+    },
+    "get_phantom_membrane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:phantom_membrane"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_egg",
+      "get_phantom_membrane"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_phantom_spawn_egg"
+    ]
+  }
+}

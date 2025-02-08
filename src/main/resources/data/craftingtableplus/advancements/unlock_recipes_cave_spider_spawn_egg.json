@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "get_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:egg"
+          }
+        ]
+      }
+    },
+    "get_cobweb": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobweb"
+          }
+        ]
+      }
+    },
+    "get_spider_eye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:spider_eye"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_egg",
+      "get_cobweb",
+      "get_spider_eye"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_cave_spider_spawn_egg"
+    ]
+  }
+}

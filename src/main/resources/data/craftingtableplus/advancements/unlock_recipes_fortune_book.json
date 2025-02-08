@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "get_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      }
+    },
+    "get_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:book"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_diamond",
+      "get_book"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_fortune_1",
+      "craftingtableplus:crafting_fortune_2",
+      "craftingtableplus:crafting_fortune_3"
+    ]
+  }
+}

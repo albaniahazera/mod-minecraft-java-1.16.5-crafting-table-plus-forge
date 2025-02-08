@@ -1,0 +1,46 @@
+{
+  "criteria": {
+    "get_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:egg"
+          }
+        ]
+      }
+    },
+    "get_ghast_tear": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:ghast_tear"
+          }
+        ]
+      }
+    },
+    "get_fire_charge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:fire_charge"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_egg",
+      "get_ghast_tear",
+      "get_fire_charge"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_ghast_spawn_egg"
+    ]
+  }
+}
