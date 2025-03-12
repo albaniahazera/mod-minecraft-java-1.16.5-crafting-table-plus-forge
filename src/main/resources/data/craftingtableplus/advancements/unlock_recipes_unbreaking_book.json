@@ -1,0 +1,54 @@
+{
+  "criteria": {
+    "get_iron_items": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_nugget"
+          },
+          {
+            "item": "minecraft:iron_ingot"
+          },
+          {
+            "item": "minecraft:iron_block"
+          }
+        ]
+      }
+    },
+    "get_lapis_lazuli": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:lapis_lazuli"
+          }
+        ]
+      }
+    },
+    "get_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:book"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_iron_items",
+      "get_lapis_lazuli",
+      "get_book"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_unbreaking_1",
+      "craftingtableplus:crafting_unbreaking_2",
+      "craftingtableplus:crafting_unbreaking_3"
+    ]
+  }
+}

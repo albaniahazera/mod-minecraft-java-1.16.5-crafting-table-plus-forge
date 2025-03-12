@@ -1,0 +1,58 @@
+{
+  "criteria": {
+    "get_book": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:book"
+          }
+        ]
+      }
+    },
+    "get_ores": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ingot"
+          },
+          {
+            "item": "minecraft:emerald"
+          },
+          {
+            "item": "minecraft:lapis_lazuli"
+          },
+          {
+            "item": "minecraft:gold_ingot"
+          },
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      }
+    },
+    "get_experience_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:experience_bottle"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_book",
+      "get_ores",
+      "get_experience_bottle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_mending"
+    ]
+  }
+}

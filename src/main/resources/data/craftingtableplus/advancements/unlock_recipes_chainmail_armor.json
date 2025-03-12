@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "get_iron_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_nugget"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_iron_nugget"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "craftingtableplus:crafting_chainmail_helmet",
+      "craftingtableplus:crafting_chainmail_chestplate",
+      "craftingtableplus:crafting_chainmail_boots",
+      "craftingtableplus:crafting_chainmail_leggings"
+    ]
+  }
+}
